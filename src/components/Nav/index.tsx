@@ -18,15 +18,15 @@ const Nav: FC<HTMLAttributes<HTMLElement>> = (props): JSX.Element => {
         </li>
         <li>
           {" "}
-          <HashLink to="/#about">About</HashLink>{" "}
+          <HashLink to="/Little-lemon/#about">About</HashLink>{" "}
         </li>
         <li>
           {" "}
-          <HashLink to="/#menu">Menu</HashLink>{" "}
+          <HashLink to="/Little-lemon/#menu">Menu</HashLink>{" "}
         </li>
         <li>
           {" "}
-          <HashLink to="/bookings">Reservations</HashLink>{" "}
+          <HashLink to="/Little-lemon/bookings">Reservations</HashLink>{" "}
         </li>
         <li className="orderBtn">
           {" "}
