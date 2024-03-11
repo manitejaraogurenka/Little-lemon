@@ -243,7 +243,7 @@ PERFORMANCE OF THIS SOFTWARE.
   @media (max-width: 768px) {
     display: none;
   };
-`,Pm="/Little-lemon/assets/Logo-dc9f6247.svg",Am="/Little-lemon/assets/basket-ea1ae724.svg",X1=e=>g.jsx(Y1,{...e,children:g.jsxs("ul",{children:[g.jsxs("li",{children:[" ",g.jsx("img",{src:Pm,alt:"Little Lemon Logo"})," "]}),g.jsxs("li",{children:[" ",g.jsx(He,{to:"/",children:"Home"})," "]}),g.jsxs("li",{children:[" ",g.jsx(He,{to:"/#about",children:"About"})," "]}),g.jsxs("li",{children:[" ",g.jsx(He,{to:"/#menu",children:"Menu"})," "]}),g.jsxs("li",{children:[" ",g.jsx(He,{to:"/bookings",children:"Reservations"})," "]}),g.jsxs("li",{className:"orderBtn",children:[" ",g.jsx(He,{role:"button",to:"#",children:"Order Online"})," "]}),g.jsxs("li",{children:[" ",g.jsx("img",{className:"basketIcon",src:Am,alt:"Basket"})," "]})]})}),Z1=G.nav`
+`,Pm="/Little-lemon/assets/Logo-dc9f6247.svg",Am="/Little-lemon/assets/basket-ea1ae724.svg",X1=e=>g.jsx(Y1,{...e,children:g.jsxs("ul",{children:[g.jsxs("li",{children:[" ",g.jsx("img",{src:Pm,alt:"Little Lemon Logo"})," "]}),g.jsxs("li",{children:[" ",g.jsx(He,{to:"/Little-lemon",children:"Home"})," "]}),g.jsxs("li",{children:[" ",g.jsx(He,{to:"/#about",children:"About"})," "]}),g.jsxs("li",{children:[" ",g.jsx(He,{to:"/#menu",children:"Menu"})," "]}),g.jsxs("li",{children:[" ",g.jsx(He,{to:"/bookings",children:"Reservations"})," "]}),g.jsxs("li",{className:"orderBtn",children:[" ",g.jsx(He,{role:"button",to:"#",children:"Order Online"})," "]}),g.jsxs("li",{children:[" ",g.jsx("img",{className:"basketIcon",src:Am,alt:"Basket"})," "]})]})}),Z1=G.nav`
   width: 100%;
   height: 100%;
   display: none;
