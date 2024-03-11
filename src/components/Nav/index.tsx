@@ -26,7 +26,7 @@ const Nav: FC<HTMLAttributes<HTMLElement>> = (props): JSX.Element => {
         </li>
         <li>
           {" "}
-          <HashLink to="/Little-lemon/bookings">Reservations</HashLink>{" "}
+          <HashLink to="/bookings">Reservations</HashLink>{" "}
         </li>
         <li className="orderBtn">
           {" "}

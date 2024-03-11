@@ -10,7 +10,7 @@ const MobileNav: FC<HTMLAttributes<HTMLElement>> = (props): JSX.Element => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const handleMenu = () => {
-    setMenuOpen(prevValue => !prevValue);
+    setMenuOpen((prevValue) => !prevValue);
   };
 
   return (
@@ -21,7 +21,10 @@ const MobileNav: FC<HTMLAttributes<HTMLElement>> = (props): JSX.Element => {
             <img src={menuImg} alt="Open menu" />
           </button>
         </li>
-        <li> <img className="basketIcon" src={basketImg} alt="Basket" /> </li>
+        <li>
+          {" "}
+          <img className="basketIcon" src={basketImg} alt="Basket" />{" "}
+        </li>
       </ul>
 
       <Menu className={menuOpen ? "opened" : ""}>
@@ -29,12 +32,32 @@ const MobileNav: FC<HTMLAttributes<HTMLElement>> = (props): JSX.Element => {
           <img src={closeImg} alt="Close menu" />
         </button>
         <ul>
-          <li> <img src={logoImg} alt="Little Lemon Logo" /> </li>
-          <li> <HashLink to="/">Home</HashLink> </li>
-          <li> <HashLink to="#about">About</HashLink> </li>
-          <li> <HashLink to="#menu">Menu</HashLink> </li>
-          <li> <HashLink to="/bookings">Reservations</HashLink> </li>
-          <li className="orderBtn"> <HashLink role="button" to="#">Order Online</HashLink> </li>
+          <li>
+            {" "}
+            <img src={logoImg} alt="Little Lemon Logo" />{" "}
+          </li>
+          <li>
+            {" "}
+            <HashLink to="/Little-lemon">Home</HashLink>{" "}
+          </li>
+          <li>
+            {" "}
+            <HashLink to="Little-lemon/#about">About</HashLink>{" "}
+          </li>
+          <li>
+            {" "}
+            <HashLink to="Little-lemon/#menu">Menu</HashLink>{" "}
+          </li>
+          <li>
+            {" "}
+            <HashLink to="/bookings">Reservations</HashLink>{" "}
+          </li>
+          <li className="orderBtn">
+            {" "}
+            <HashLink role="button" to="#">
+              Order Online
+            </HashLink>{" "}
+          </li>
         </ul>
       </Menu>
     </Container>
